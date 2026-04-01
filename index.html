@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GST Guru – GST Calculator & GSTIN Verifier</title>
+  <meta name="description" content="GST Guru is a powerful GST calculator and GSTIN verification app for Indian businesses. Download on Google Play."/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f0f4f8;
+      color: #2d3748;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%);
+      color: white;
+      padding: 80px 24px;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 4rem;
+      margin-bottom: 16px;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      font-weight: 800;
+      margin-bottom: 12px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.85;
+      max-width: 500px;
+      margin: 0 auto 28px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: white;
+      color: #1a365d;
+      font-weight: 700;
+      padding: 14px 32px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+      margin: 0 8px 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    }
+
+    .btn.outline {
+      background: transparent;
+      color: white;
+      border: 2px solid rgba(255,255,255,0.6);
+      box-shadow: none;
+    }
+
+    .btn.outline:hover { background: rgba(255,255,255,0.1); }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 24px;
+      margin-bottom: 60px;
+    }
+
+    .feature-card {
+      background: white;
+      border-radius: 16px;
+      padding: 28px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+      transition: transform 0.2s;
+    }
+
+    .feature-card:hover { transform: translateY(-4px); }
+
+    .feature-card .icon { font-size: 2.5rem; margin-bottom: 14px; }
+    .feature-card h3 { font-size: 1.05rem; font-weight: 700; color: #1a365d; margin-bottom: 8px; }
+    .feature-card p { font-size: 0.9rem; color: #718096; }
+
+    .info-section {
+      background: white;
+      border-radius: 16px;
+      padding: 36px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+      margin-bottom: 32px;
+      text-align: center;
+    }
+
+    .info-section h2 { font-size: 1.4rem; color: #1a365d; margin-bottom: 8px; }
+    .info-section p { color: #718096; font-size: 0.95rem; }
+    .info-section a { color: #2b6cb0; font-weight: 600; text-decoration: none; }
+    .info-section a:hover { text-decoration: underline; }
+
+    footer {
+      background: #1a365d;
+      color: rgba(255,255,255,0.6);
+      text-align: center;
+      padding: 28px 20px;
+      font-size: 0.88rem;
+    }
+
+    footer a { color: #90cdf4; text-decoration: none; margin: 0 12px; }
+    footer a:hover { text-decoration: underline; }
+
+    h2.section-title {
+      text-align: center;
+      font-size: 1.7rem;
+      color: #1a365d;
+      margin-bottom: 32px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🧾</div>
+  <h1>GST Guru</h1>
+  <p>India's smart GST calculator, GSTIN verifier & HSN code finder for businesses</p>
+  <a href="#" class="btn">📲 Download on Google Play</a>
+  <a href="privacy-policy.html" class="btn outline">Privacy Policy</a>
+</header>
+
+<main>
+
+  <h2 class="section-title">✨ App Features</h2>
+
+  <div class="features">
+    <div class="feature-card">
+      <div class="icon">🧮</div>
+      <h3>GST Calculator</h3>
+      <p>Calculate GST instantly with support for all tax slabs — 5%, 12%, 18%, 28%</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">🔍</div>
+      <h3>GSTIN Verifier</h3>
+      <p>Verify any GSTIN in real-time and get complete business details</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">📦</div>
+      <h3>HSN Code Finder</h3>
+      <p>Search thousands of HSN/SAC codes with applicable GST rates</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">📸</div>
+      <h3>OCR Scanner</h3>
+      <p>Scan GST invoices using camera or gallery and extract data instantly</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">🔔</div>
+      <h3>GST Reminders</h3>
+      <p>Set reminders for GST filing deadlines and never miss a due date</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">📖</div>
+      <h3>Search History</h3>
+      <p>Quickly access your recent searches without typing again</p>
+    </div>
+  </div>
+
+  <div class="info-section">
+    <h2>📬 Contact / Support</h2>
+    <p>Developer: <strong>educationhub</strong></p>
+    <p>Email: <a href="mailto:educationhub211@gmail.com">educationhub211@gmail.com</a></p>
+  </div>
+
+  <div class="info-section">
+    <h2>📄 Legal</h2>
+    <p>
+      <a href="privacy-policy.html">🔒 Privacy Policy</a>
+    </p>
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2025 educationhub · GST Guru App</p>
+  <p style="margin-top:8px;">
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="mailto:educationhub211@gmail.com">Contact</a>
+  </p>
+</footer>
+
+</body>
+</html>
